@@ -30,6 +30,9 @@ body {
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
   color: white;
 }
+
+
+/* !Homepage style */
 .wave {
   animation-name: wave-animation;
   /* Refers to the name of your @keyframes element below */
@@ -76,4 +79,24 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* ------------------------------------- */
+
+
+/* navbar style */
+.navitem::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  background-color: #a855f7;
+  left: 0;
+  bottom: -6px;
+  transition: all 300ms ease-in-out;
+  border-radius: 10px;
+}
+.navitem:hover::before{
+  width: 100%;
 }
