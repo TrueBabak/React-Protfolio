@@ -6,7 +6,7 @@
   box-sizing: border-box;
   list-style: none;
 }
-body,html{
+/* body,html{
   width: 100%;
   height: 100vh;
   display: flex;
@@ -16,4 +16,4 @@ body,html{
   color: rgb(20, 105, 134);
   font-family: serif;
   background-color: lightblue;
-}
+} */
