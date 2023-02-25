@@ -12,11 +12,11 @@ const Index = () => {
             <div className='flex justify-center items-center w-full h-3/4'>
                 <div className='flex justify-center items-center w-1/2 h-full m-4'>
                     <div className='w-full m-auto flex-col items-center font-bold'>
-                        <div className='w-1/2 m-auto text-3xl py-1'>Hi There! 
+                        <div className='w-3/4 m-auto text-3xl py-1'>Hi There! 
                             <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
                         </div>
-                        <div className='w-1/2 m-auto text-3xl py-1'>I'M <span className='text-purple-500'>Babak Jahani</span></div>
-                        <div className='w-1/2 m-auto text-4xl py-14 text-purple-600' style={{textAlign: "left" }}>
+                        <div className='w-3/4 m-auto text-3xl py-1'>I'M <span className='text-purple-500'>Babak Jahani</span></div>
+                        <div className='w-3/4 m-auto text-4xl py-14 text-purple-600 text-left'>
                             <Type />
                         </div>
                     </div>
