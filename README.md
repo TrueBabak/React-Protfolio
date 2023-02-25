@@ -1,7 +1,7 @@
 How to using this repository:
 
-1. git clone https://github.com/TrueBabak/React-Protfolio.git
-1.5. and next step you should open the project with your ide...
+1. git clone https://github.com/TrueBabak/React-Protfolio.git .\
+and next step you should open the project with your ide
 
 2. npm install
 3. npm start
