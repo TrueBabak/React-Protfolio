@@ -15,10 +15,10 @@ const Navbar = () => {
             </div>
             <div className='Navbar'>
                 <ul className='flex'>
-                    <li className='px-4 text-xl flex items-center'><AiOutlineHome style={{width:'20px' , marginRight:'5px'}}/> Home</li>
-                    <li className='px-4 text-xl flex items-center'><AiOutlineUser style={{width:'20px' , marginRight:'5px'}}/> About</li>
-                    <li className='px-4 text-xl flex items-center'><AiOutlineFundProjectionScreen style={{width:'20px' , marginRight:'5px'}}/> Project</li>
-                    <li className='px-4 text-xl flex items-center'><CgFileDocument style={{width:'20px' , marginRight:'5px'}}/> Resume</li>
+                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineHome style={{width:'20px' , marginRight:'5px'}}/> Home</li>
+                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineUser style={{width:'20px' , marginRight:'5px'}}/> About</li>
+                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineFundProjectionScreen style={{width:'20px' , marginRight:'5px'}}/> Project</li>
+                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><CgFileDocument style={{width:'20px' , marginRight:'5px'}}/> Resume</li>
                 </ul>
             </div>
         </div>
