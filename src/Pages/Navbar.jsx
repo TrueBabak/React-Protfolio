@@ -9,16 +9,16 @@ import {
 
 const Navbar = () => {
     return (
-        <div className='w-9/12 px-4 bg-red-500 m-auto flex justify-between items-center text-white py-2'>
-            <div className='Avatar w-16 rounded-full overflow-hidden bg-gray-200 ring-2'>
-                <img src={Avatar}/>
+        <div className='w-8/12 px-5 m-auto flex justify-between items-center text-white py-2'>
+            <div className='Avatar w-16 h-16 flex justify-center items-center font-bold text-2xl rounded-full overflow-hidden ring-2 ring-purple-700 font-mono'>
+                BJ
             </div>
             <div className='Navbar'>
                 <ul className='flex'>
-                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineHome style={{width:'20px' , marginRight:'5px'}}/> Home</li>
-                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineUser style={{width:'20px' , marginRight:'5px'}}/> About</li>
-                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineFundProjectionScreen style={{width:'20px' , marginRight:'5px'}}/> Project</li>
-                    <li className='px-4 text-xl flex items-center cursor-pointer hover:text-red-400'><CgFileDocument style={{width:'20px' , marginRight:'5px'}}/> Resume</li>
+                    <li className='px-6 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineHome style={{width:'20px' , marginRight:'5px'}}/> Home</li>
+                    <li className='px-6 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineUser style={{width:'20px' , marginRight:'5px'}}/> About</li>
+                    <li className='px-6 text-xl flex items-center cursor-pointer hover:text-red-400'><AiOutlineFundProjectionScreen style={{width:'20px' , marginRight:'5px'}}/> Project</li>
+                    <li className='px-6 text-xl flex items-center cursor-pointer hover:text-red-400'><CgFileDocument style={{width:'20px' , marginRight:'5px'}}/> Resume</li>
                 </ul>
             </div>
         </div>

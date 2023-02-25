@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className="App bg-black h-screen">
+    <Particle />
     <Navbar/>
-    <Particle/>
       Start Project
     </div>
   );
