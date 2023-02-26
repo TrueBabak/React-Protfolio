@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import Type from './Type';
 import HomeImg from '../../Assets/Images/home-main.svg'
 import Particle from '../Particle';
@@ -7,8 +6,6 @@ import Particle from '../Particle';
 const Index = () => {
     return (
         <div className='bg-violet-900 mainSection h-screen'>
-        <Navbar/>
-        
             <div className='flex justify-center items-center w-full h-full'>
                 <div className='flex justify-center items-center w-2/3 h-full m-4'>
                     <div className='w-full m-auto flex-col items-center font-bold'>

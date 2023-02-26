@@ -1,5 +1,4 @@
 import React from 'react'
-import HomeImg from '../../Assets/Images/home-main.svg'
 import Avatar from '../../Assets/Images/Avatar.jpg'
 import {
   AiFillGithub,
