@@ -9,7 +9,7 @@ import {
 
 const Navbar = () => {
     return (
-        <div className='w-8/12 px-5 m-auto flex justify-between items-center text-white py-2 z-10'>
+        <div className='w-5/6 flex justify-between items-center py-2 fixed top-0 left-1/2 -translate-x-1/2'>
             <div className='Avatar w-16 h-16 flex justify-center items-center font-bold text-2xl rounded-full overflow-hidden ring-2 ring-purple-700 font-mono'>
                 BJ
             </div>
