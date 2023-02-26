@@ -19,9 +19,9 @@ const Home2 = ()=> {
                             </div>
                             <div className='w-3/4 m-auto text-2xl py-2'>
                                 <div className='mb-5 text-2xl '>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</div>
-                                <div className='mb-5 text-2xl '>I am fluent in classics like C++, Javascript and Python.</div>
-                                <div className='mb-5 text-2xl '>My field of Interest's are building new  Web Technologies and Products and also in areas related to Deep Learning and Natural Launguage Processing.</div>
-                                <div className='mb-5 text-2xl '>Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks  like React.js and Next.js</div>
+                                <div className='mb-5 text-2xl '>I am fluent in classics like <span className='text-purple-500'>Javascript</span> and <span className='text-purple-500'>Python.</span></div>
+                                <div className='mb-5 text-2xl '>My field of Interest's are building new  Web Technologies and <span className='text-purple-500'>Web design</span> & <span className='text-purple-500'>Web programmig</span>..</div>
+                                <div className='mb-5 text-2xl '>Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks  like <span className='text-purple-500'>React js</span> and <span className='text-purple-500'>Next js</span></div>
                             </div>
                         </div>
                     </div>
