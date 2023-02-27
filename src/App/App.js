@@ -5,11 +5,13 @@ import MainAbout from '../Pages/About';
 import Navbar from '../Pages/Navbar';
 import Project from '../Pages/Project';
 import MainResume from '../Pages/Resume';
+import ScrollTop from '../Pages/ScrollTop';
 
 function App() {
   return (
       <div>
         <Navbar/>
+        <ScrollTop/>
         <Routes>
             <Route path='/Home' element={<MainHome/>}/>
             <Route path='About' element={<MainAbout/>}/>
