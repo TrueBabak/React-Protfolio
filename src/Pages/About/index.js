@@ -10,12 +10,10 @@ import DaysiCode from './DaysiCode';
 const MainAbout = () => {
     return (
         <div>
-            <Navbar/>
             <About/>
             <PorSkills/>
             <Tools/>
             <DaysiCode/>
-            <Footer/>
         </div>
     );
 }

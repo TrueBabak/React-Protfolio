@@ -6,6 +6,7 @@ import {
     AiOutlineUser,
   } from "react-icons/ai";
   import { CgFileDocument } from "react-icons/cg";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [expand, updateExpanded] = useState(false);
@@ -31,21 +32,25 @@ const Navbar = () => {
                     </div>
                     <div className='Navbar'>
                         <ul className='flex relative'>
-                            <li className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer'>
-                                <AiOutlineHome style={{width:'20px' , marginRight:'5px'}}/> 
-                                Home
+                            <li>
+                                <Link className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer' to={'/Home'}>
+                                    <AiOutlineHome style={{width:'20px' , marginRight:'5px'}}/>Home
+                                </Link>
                             </li>
-                            <li className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer'>
-                                <AiOutlineUser style={{width:'20px' , marginRight:'5px'}}/> 
-                                About
+                            <li>
+                                <Link className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer' to={'/About'}>
+                                    <AiOutlineUser style={{width:'20px' , marginRight:'5px'}}/>About
+                                </Link>
                             </li>
-                            <li className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer'>
-                                <AiOutlineFundProjectionScreen style={{width:'20px' , marginRight:'5px'}}/> 
-                                Project
+                            <li>
+                                <Link className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer' to={'/Project'}>
+                                    <AiOutlineFundProjectionScreen style={{width:'20px' , marginRight:'5px'}}/>Project
+                                </Link>
                             </li>
-                            <li className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer'>
-                                <CgFileDocument style={{width:'20px' , marginRight:'5px'}}/> 
-                                Resume
+                            <li>
+                                <Link className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer' to={'/Resume'}>
+                                    <CgFileDocument style={{width:'20px' , marginRight:'5px'}}/>Resume
+                                </Link>
                             </li>
                         </ul>
                     </div>

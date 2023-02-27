@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
-const Index = () => {
+const MainResume = () => {
     return (
         <div>
             <Navbar/>
@@ -9,4 +9,4 @@ const Index = () => {
     );
 }
 
-export default Index;
+export default MainResume;

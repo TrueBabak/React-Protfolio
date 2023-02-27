@@ -7,12 +7,8 @@ import Home2 from './Home2'
 function MainHome() {
   return (
     <div>
-      <Navbar/>
-
       <Home/>
       <Home2/>
-      
-      <Footer/>
     </div>
   )
 }
