@@ -36,10 +36,18 @@ const Home2 = ()=> {
             <div className='text-center text-6xl mb-2'>FIND ME <span className='text-purple-500'>ON</span></div>
             <div className='text-center text-xl'>Feel free to  <span className='text-purple-500'>contact</span> with me</div>
             <ul className=' flex justify-center items-center mt-4'>
-                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'><AiFillGithub/></li>
-                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'><AiFillInstagram/></li>
-                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'><FaTelegram/></li>
-                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'><AiOutlineTwitter/></li>
+                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'>
+                    <a href='https://github.com/TrueBabak'><AiFillGithub/></a>
+                </li>
+                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'>
+                    <a href='https://www.instagram.com/truebabak/'><AiFillInstagram/></a>
+                </li>
+                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'>
+                    <a href='https://t.me/TrueBabak'><FaTelegram/></a>
+                </li>
+                <li className='text-purple-500 text-3xl p-2 w-10 h-10 bg-red-50 m-2 flex justify-center items-center rounded-full hover:shadow-inner shadow-white'>
+                    <a href='https://twitter.com/truebabak'><AiOutlineTwitter/></a>
+                </li>
             </ul>
         </div>
     </div>
