@@ -5,7 +5,7 @@ import AboutImg from '../../Assets/Images/about.png'
 
 function About() {
   return (
-    <div className='bg-violet-900 mainSection h-screen'>
+    <div className='bg-[#09030e] h-screen'>
             <div className='flex justify-center items-center w-full h-full'>
                 <div className='flex justify-center items-center w-2/3 h-full m-4'>
                     <div className='w-full m-auto flex-col items-center'>
