@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
-const Index = () => {
+const About = () => {
     return (
         <div>
             <Navbar/>
+            salam
         </div>
     );
 }
 
-export default Index;
+export default About;
