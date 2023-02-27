@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import About from './About';
 import PorSkills from './PorSkills';
 import Tools from './Tools';
+import DaysiCode from './DaysiCode';
 
 
 const MainAbout = () => {
@@ -13,6 +14,7 @@ const MainAbout = () => {
             <About/>
             <PorSkills/>
             <Tools/>
+            <DaysiCode/>
             <Footer/>
         </div>
     );
