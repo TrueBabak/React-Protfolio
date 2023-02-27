@@ -15,11 +15,9 @@ const Navbar = () => {
     function scrollHandler() {
         if (window.scrollY > 5) {
         updateNavbar(true);
-        console.log(navColour)
         } 
         else {
         updateNavbar(false);
-        console.log(navColour)
         }
     }
 
@@ -33,7 +31,7 @@ const Navbar = () => {
                     <div className='Navbar'>
                         <ul className='flex relative'>
                             <li>
-                                <Link className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer' to={'/Home'}>
+                                <Link className='relative navitem mx-6 px-2 text-xl flex items-center cursor-pointer' to={'/'}>
                                     <AiOutlineHome style={{width:'20px' , marginRight:'5px'}}/>Home
                                 </Link>
                             </li>

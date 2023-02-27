@@ -23,12 +23,11 @@ function App() {
         <ScrollTop/>
         <Preloader Load={Load}/>
         <Routes>
-            <Route path='/Home' element={<MainHome/>}/>
+            <Route path='/' element={<MainHome/>}/>
             <Route path='About' element={<MainAbout/>}/>
             <Route path='Project' element={<Project/>}/>
             <Route path='Resume' element={<MainResume/>}/>
         </Routes>
-        <Footer/>
       </div>
   );
 }

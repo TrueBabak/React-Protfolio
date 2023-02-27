@@ -91,7 +91,7 @@ body {
 .navitem::before{
   content: '';
   display: block;
-  position: absolute;
+  position: relative;
   width: 0%;
   height: 4px;
   background-color: #a855f7;
@@ -121,4 +121,12 @@ body {
 
 #preloader-none {
   opacity: 0;
+}
+
+.react-pdf__Page__textContent{
+  background-color: #ffffff;
+  color: #0c0513 !important;
+}
+.react-pdf__Page__textContent span{
+  color: #0c0513;
 }
