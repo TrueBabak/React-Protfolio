@@ -20,7 +20,7 @@ import {
 function Tools() {
   return (
     <div className='bg-[#09030e] pb-20'>
-      <div className='text-5xl text-center mb-4'>Professional <span className='text-purple-500'>Skillset</span></div>
+      <div className='text-5xl text-center mb-4'><span className='text-purple-500'>Tools</span> i use</div>
       <div className='grid grid-cols-5 gap-4 w-4/6 m-auto'>
         <div className='border p-1 m-2 flex justify-center items-center text-6xl py-6 rounded-lg border-purple-400'><DiVisualstudio/></div>
         <div className='border p-1 m-2 flex justify-center items-center text-6xl py-6 rounded-lg border-purple-400'><DiSass/></div>
